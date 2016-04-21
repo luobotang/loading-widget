@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loading widget</title>
+	<link rel="stylesheet" href="../dist/loading-widget.css">
+</head>
+<body>
+
+	<div id="example" style="margin: 50px auto; width: 400px; height: 200px; border: 1px solid #ccc;">
+		<div class="message"></div>
+	</div>
+
+	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../dist/loading-widget.min.js"></script>
+	<script>
+		$(function () {
+			$('#example').loading().find('.message').html('loading start...')
+			setTimeout(function () {
+				$('#example').loading('remove').find('.message').html('loading done.')
+			}, 3000)
+		})
+	</script>
+</body>
+</html>

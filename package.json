@@ -1,0 +1,31 @@
+{
+  "name": "loading-widget",
+  "version": "0.1.0",
+  "description": "Loading widget by CSS. Used as jQuery plugin.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "start test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luobotang/loading-widget.git"
+  },
+  "author": "luobotang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luobotang/loading-widget/issues"
+  },
+  "homepage": "https://github.com/luobotang/loading-widget#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "jquery": "^2.2.3"
+  }
+}

@@ -1,0 +1,104 @@
+@-webkit-keyframes loading-widget-zoom-height {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: #fafafa;
+    background: rgba(250, 250, 250, 0.9);
+  }
+  25% {
+    -webkit-transform: scaleY(8);
+            transform: scaleY(8);
+    background: #ccc;
+    background: rgba(200, 200, 200, 0.9);
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: #fafafa;
+    background: rgba(250, 250, 250, 0.9);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: #fafafa;
+    background: rgba(250, 250, 250, 0.9);
+  }
+}
+@keyframes loading-widget-zoom-height {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: #fafafa;
+    background: rgba(250, 250, 250, 0.9);
+  }
+  25% {
+    -webkit-transform: scaleY(8);
+            transform: scaleY(8);
+    background: #ccc;
+    background: rgba(200, 200, 200, 0.9);
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: #fafafa;
+    background: rgba(250, 250, 250, 0.9);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: #fafafa;
+    background: rgba(250, 250, 250, 0.9);
+  }
+}
+.loading-widget-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  background: rgba(250, 250, 250, 0.9);
+}
+.loading-widget-box .loading-widget-inner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  height: 20px;
+  margin-left: -100px;
+  width: 200px;
+  text-align: center;
+  line-height: 20px;
+}
+.loading-widget-box i {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 3px;
+  height: 2px;
+  width: 8px;
+  background: #fafafa;
+  background: rgba(250, 250, 250, 0.9);
+  border-radius: 3px;
+  -webkit-animation: loading-widget-zoom-height linear 2s infinite;
+          animation: loading-widget-zoom-height linear 2s infinite;
+}
+.loading-widget-box i:nth-child(2) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.loading-widget-box i:nth-child(3) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.loading-widget-box i:nth-child(4) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+.loading-widget-box i:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.loading-widget-box i:nth-child(6) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
